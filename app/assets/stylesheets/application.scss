@@ -1,0 +1,30 @@
+@import "bootstrap";
+
+
+a:-webkit-any-link {
+
+  text-decoration: none;
+}
+
+.nav-text {
+  color: #848282;
+  text-decoration: none;
+  font-size: 14px;
+  &:hover {
+    box-shadow: 0 4px 2px -2px gray;
+    color: #848282;
+  }
+}
+
+
+.search {
+  width: 180%;
+  padding: 1rem;
+  margin-left: -9rem;
+  margin-bottom: 1rem;
+}
+
+
+.title {
+  margin-bottom: 3rem;
+}

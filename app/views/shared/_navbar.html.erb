@@ -1,0 +1,10 @@
+<!-- navbar -->
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom box-shadow">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Movie Homes</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <%= link_to "Become a Host", root_path, class: "p-2 nav-text" %>
+    <%= link_to "Help", root_path, class: "p-2 nav-text" %>
+    <%= link_to "Log in", new_user_session_path, class: "p-2 nav-text" %>
+  </nav>
+  <%= link_to "Sign up", new_user_registration_path, class: "btn btn-outline-primary" %>
+</div>
